@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY DICTIONARY w/ Dictionary API </title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./svg.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Cursor Credits: https://icons8.com/icons/set/touch-cursor -->
+
+    <img src="../assets/b-abs-top.svg" class="b--blobs top">
+    <img src="../assets/b-abs-bot.svg" class="b--blobs bot">
+    <header>
+        <img src="../assets/favicon.svg" class="__logo" alt="DIY DICTIONARY APP">
+        <h1>DIY Dictionary App</h1>
+    </header>
+    <div class="inner__case">
+        <!-- <button type="button" class="__modalParent">
+            <div class="__modalCase">
+                <h2 class="__err">Sorry! We cannot find what you're looking for.</h2>
+            </div>
+        </button> -->
+        <div class="inner__content">
+            <form id="__formCase">
+                <input id="__inputField" type="text" placeholder="Search for a word's definition..." autocomplete="off" required/>
+            
+                <button id="__submit" type="submit">
+                    <i class='bx bx-search'></i>
+                </button>
+            </form>
+            <div class="__insertArray">
+                <!-- MOCK DATA -->
+                <div class="eachArr">
+                    <h1>Orange</h1>
+                    <p class="__def">An evergreen tree of the genus Citrus such as Citrus sinensis.</p>
+                    <button onClick="{deleteItem(this)}"><i class='bx bx-x'></i></button>
+                </div>
+                <div class="eachArr">
+                    <h1>Collide</h1>
+                    <p class="__def">To impact directly, especially if violent.</p>
+                    <button onClick="{deleteItem(this)}"><i class='bx bx-x'></i></button>
+                </div>
+                <div class="eachArr">
+                    <h1>Dictionary</h1>
+                    <p class="__def">A reference work with a list of words from one or more languages, normally ordered alphabetically, explaining each
+                    word's meaning, and sometimes containing information on its etymology, pronunciation, usage, translations, and other
+                    data.</p>
+                    <button onClick="{deleteItem(this)}"><i class='bx bx-x'></i></button>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <footer>
+        <h1>All rights reserved &#169 2022 &#8226 Jtzuya Dev</h1>
+
+        <div class="github">
+            <a class="github__link" target="blank" href="https://github.com/Jtzuya/diy-dictionary-app">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

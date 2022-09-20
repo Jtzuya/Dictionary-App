@@ -1,0 +1,81 @@
+.inner__case {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.inner__content {
+    height: calc(100% - 5rem);
+    width: 100%;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.b--blobs {
+    position: absolute;
+    z-index: -1;
+    width: 55%;
+}
+
+.b--blobs.top {
+    top: -2px;
+    right: -2px;
+}
+
+.b--blobs.bot {
+    bottom: calc(-139.93px / 2);
+    left: 0;
+}
+
+/*
+    Error Popup
+*/
+.__modalParent {
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 25%);
+    z-index: 5;
+    cursor: default;
+}
+
+.__modalParent:hover {
+    cursor: url('../assets/modal-exit-btn.svg'), default;
+}
+
+.__modalCase {
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    padding: 1.75rem 3.25rem;
+    background: radial-gradient(circle, rgba(184, 227, 219, 1) 0%, rgba(255, 207, 84, 1) 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 70%);
+}
+
+.__err {
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.__valCap {
+    font-size: 1.75rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-family: 'Quickpeachy', monospace;
+    padding-top: 1.75rem;
+}

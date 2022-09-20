@@ -1,0 +1,100 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="477.314"
+  height="284.851"
+  viewBox="0 0 477.314 284.851"
+>
+  <g id="bot-blob" transform="translate(2.121 -218.463)">
+    <path
+      id="q"
+      d="M.845,300.371,67.78,232.246a47.057,47.057,0,0,1,66.549,0h0a47.057,47.057,0,0,1,0,66.549L97,336.128a20.66,20.66,0,0,0,0,29.217h0a20.658,20.658,0,0,0,29.216,0l8.116-8.116a42.467,42.467,0,0,1,60.057,0h0a42.467,42.467,0,0,1,0,60.057l-33.275,33.275a9.183,9.183,0,0,0,0,12.985h0a9.182,9.182,0,0,0,12.986,0l81.158-81.158a36.728,36.728,0,0,1,51.941,0h0a36.728,36.728,0,0,1,0,51.941l-21.913,21.913a8.035,8.035,0,0,0,0,11.362h0a8.033,8.033,0,0,0,11.362,0l1.817-1.817a98.432,98.432,0,0,1,139.2,0l37.527,37.527L.308,499.472S1.224,300.748.845,300.371Z"
+      fill="#cef0e6"
+    />
+    <circle
+      id="c"
+      cx="7.794"
+      cy="7.794"
+      r="7.794"
+      transform="translate(224.69 396.627)"
+      fill="#31346b"
+    />
+    <path
+      id="l"
+      d="M0,115.783,115.783,0"
+      transform="translate(0 287.784)"
+      fill="none"
+      stroke="#fff"
+      stroke-linecap="round"
+      stroke-width="3"
+    />
+    <line
+      id="l-2"
+      data-name="l"
+      y1="40.901"
+      x2="40.41"
+      transform="translate(202.5 459.599)"
+      fill="none"
+      stroke="#fff"
+      stroke-linecap="round"
+      stroke-miterlimit="10"
+      stroke-width="3"
+    />
+    <path
+      id="l-3"
+      data-name="l"
+      d="M0,36.926,33.169,5.193,38.6,0"
+      transform="translate(0.308 328.06)"
+      fill="none"
+      stroke="#fff"
+      stroke-linecap="round"
+      stroke-width="3"
+    />
+    <circle
+      id="s"
+      cx="20.454"
+      cy="20.454"
+      r="20.454"
+      transform="translate(53.278 371.617)"
+      fill="#fff"
+    />
+    <path
+      id="p"
+      d="M30.2,498.431c1.254-.418,48.635-48.314,66.759-66.667a9.838,9.838,0,0,1,13.959-.039h0a9.844,9.844,0,0,1,0,13.92L96.023,460.54a4.937,4.937,0,0,0,0,6.983h0a4.937,4.937,0,0,0,6.983,0l6.207-6.207a10.79,10.79,0,0,1,15.26,0h0a10.789,10.789,0,0,1,0,15.259h0a4.573,4.573,0,0,0,0,6.466L141.931,500.5H28.648"
+      transform="translate(7.258)"
+      fill="#b8e3db"
+    />
+    <path
+      id="d"
+      d="M0,129.579,130.421,0"
+      transform="translate(313.5 370.921)"
+      fill="none"
+      stroke="#31346b"
+      stroke-linecap="round"
+      stroke-width="3"
+    />
+    <line
+      id="l-4"
+      data-name="l"
+      y1="51.093"
+      x2="51.084"
+      transform="translate(1.5 449.407)"
+      fill="none"
+      stroke="#31346b"
+      stroke-linecap="round"
+      stroke-miterlimit="10"
+      stroke-width="3"
+    />
+    <line
+      id="s-2"
+      data-name="s"
+      y1="28.211"
+      x2="28.212"
+      transform="translate(390.708 428.017)"
+      fill="none"
+      stroke="#31346b"
+      stroke-linecap="round"
+      stroke-miterlimit="10"
+      stroke-width="3"
+    />
+  </g>
+</svg>

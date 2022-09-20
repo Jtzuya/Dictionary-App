@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: 'QuickPeachy';
+    src: url(../assets/QuickPeachy.otf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', monospace;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: whitesmoke;
+    cursor: url('../assets/modal-exit-btn.svg'), auto;
+}
+
+body::after {
+    position: fixed;
+    content: 'DIY DICTIONARY';
+    width: 100%;
+    text-align: center;
+    font-size: 8.25rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    font-family: 'QuickPeachy', monospace;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+header {
+    width: 100%;
+    padding: 1rem 4rem;
+    backdrop-filter: blur(10px);
+}
+
+.__logo {
+    width: 100%;
+    max-width: 50px;
+}
+
+header h1 {
+    font-size: 21px;
+    font-family: 'QuickPeachy', monospace;
+}
+
+#__formCase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 1.25rem;
+}
+
+#__formCase #__submit,
+#__formCase #__inputField {
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    border: 2px transparent;
+    box-shadow: 0 0 6px rgb(0 0 0 / 15%);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+#__submit {
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+#__submit i {
+    font-size: 21px;
+}
+
+#__submit:hover {
+    background: radial-gradient(circle, rgba(184, 227, 219, 1) 0%, rgba(255, 207, 84, 1) 100%);
+}
+
+#__inputField {
+    width: 40%;
+}
+
+#__inputField:focus {
+    outline: none !important;
+    border: 1px solid #31346B;
+}
+
+.__insertArray {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    place-content: center;
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    gap: 1.75rem;
+    padding-top: 2rem;
+}
+
+.eachArr {
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    padding: 1rem 1.75rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.eachArr::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(184, 227, 219, 1) 0%, rgba(255, 207, 84, 1) 100%);
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 45%);
+    z-index: -1;
+    background-size: 400%;
+    animation: 3s linear 1.5s infinite alternate prograd;
+}
+
+@keyframes prograd {
+    25% {
+        background-size: 250%;
+    }
+    50% {
+        background-size: 90%;
+    }
+    75% {
+        background-size: 120%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+.eachArr h1 {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-family: 'QuickPeachy';
+}
+
+.eachArr p {
+    font-size: 14.5px;
+    padding-left: 1rem
+}
+
+.__def {
+    position: relative;
+}
+
+.__def::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color: rgb(0 0 0 / 100%);
+    left: 0;
+    top: 0;
+}
+
+.eachArr button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.25rem;
+    border-radius: 5rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 1.25rem;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1 {
+    font-size: 21px;
+    font-family: 'QuickPeachy', monospace;
+}
+
+.github {
+    position: relative;
+}
+
+.github::after {
+    position: absolute;
+    content: 'Check Code Here!';
+    font-size: 14.5px;
+    width: max-content;
+    white-space: nowrap;
+    background: rgb(0 0 0 / 15%);
+    padding: 0.5rem 1.25rem;
+    border-radius: 1.25rem;
+    color: #000;
+    top: -90%;
+    right: 0;
+    font-family: 'QuickPeachy', monospace;
+}
+
+.github::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    top: -19.5%;
+    right: 18px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid rgb(0 0 0 / 15%);
+    transform: rotate(180deg);
+}
+
+.github__link {
+    display: flex;
+    font-size: 3rem;
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.25;
+    transition: all 0.35s ease-in-out;
+    position: relative;
+}
+
+.github__link:hover {
+    transform: scale(1.05);
+    opacity: 0.45;
+}
+
+* > button:hover,
+button[type="submit"]:hover,
+button[type="submit"]:hover,
+* > button i:hover,
+* > a:hover {
+    cursor: url('../assets/cursor-hover.svg'), auto;
+}
