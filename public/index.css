@@ -150,6 +150,7 @@ header h1 {
     margin-bottom: 0.5rem;
     text-transform: capitalize;
     font-family: 'QuickPeachy';
+    overflow-wrap: anywhere;
 }
 
 .eachArr p {

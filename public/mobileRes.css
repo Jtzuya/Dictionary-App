@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+    header {
+        padding: 1rem 1.25rem;
+        backdrop-filter: blur(0px);
+    }
+
+    .__insertArray {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    
+    #__formCase {
+        margin-top: 1.75rem;
+    }
+
+    #__formCase #__submit,
+    #__formCase #__inputField {
+        font-size: 10.5px;
+        padding: 0.25rem 0.75rem;
+    }
+
+    #__inputField {
+        width: 70%;
+    }
+
+    footer {
+        margin-top: 3.25rem;
+        padding: 1rem 1.25rem;
+    }
+}
